@@ -1,0 +1,24 @@
+.header {
+    background-color: #d3d3d3;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.305);
+    padding: 15px 20px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.header-subtitle {
+    left: 25px;
+    font-size: 14px;
+    color: #6c757d;
+    position: absolute;
+}
+
+.header-title {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+}

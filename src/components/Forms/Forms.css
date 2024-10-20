@@ -1,0 +1,77 @@
+/* CSS atualizado para os botões "Sim" e "Não" */
+.form-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #d3d3d3;
+}
+
+.form-container {
+    width: 25%;
+    margin-right: 5%;
+    max-width: 430px;
+    max-height: 600px;
+    overflow-y: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-box h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-box label {
+    display: block;
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.form-box input[type="text"],
+.form-box input[type="tel"],
+.form-box input[type="url"] {
+    width: 97%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.radio-group {
+    display: flex;
+    align-items: center;
+}
+
+.radio-group div {
+    display: inline-block;
+    margin-right: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.form-box input[type="radio"] {
+    margin-right: 10px;
+}
+
+.form-box button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    background: #1e90ff;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.form-box button:hover {
+    background: #0b75d1;
+}

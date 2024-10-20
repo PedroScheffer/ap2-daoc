@@ -1,0 +1,29 @@
+.welcome-container {
+    background-color: #d3d3d3; 
+    padding: 5px;
+    text-align: center;
+}
+
+.welcome-message {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 18px;
+    color: #2c3e50;
+    padding: 15px 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    margin: 20px auto;
+    background-color: #f8f9fa;
+    transition: all 0.3s ease;
+}
+
+.welcome-message:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.props-name {
+    font-weight: bold;
+    color: #3498db;
+    letter-spacing: 1px;
+}
